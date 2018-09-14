@@ -10,10 +10,10 @@ To change the training corpus, please just switch the `-mono-train1` and `-mono-
 ## Datasets
 <table border="1">
 	<tr>
-		<td align="center">Process</td>
-		<td align="center">Type</td>
-		<td align="center">Source</td>
-		<td align="center">Target</td>
+		<td align="center"><b>Process</b></td>
+		<td align="center"><b>Type</b></td>
+		<td align="center"><b>Source</b></td>
+		<td align="center"><b>Target</b></td>
 	</tr>
 	<tr>
 		<td align="center"  rowspan="3">Training</td>
