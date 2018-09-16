@@ -8,7 +8,7 @@ Sememes are defined as the minimum semantic units of human languages. As importa
 	
 To change the training corpus, please just switch the `-mono-train1` and `-mono-train2` parameters in `bash.sh`. Notice that `lang1` refers to the source language and `lang2` refers to the target language.
 ## Datasets
-<table border="1">
+<table>
 	<tr>
 		<td align="center"><b>Process</b></td>
 		<td align="center"><b>Type</b></td>
