@@ -124,8 +124,9 @@ def EvalLexiconInduction(zhWordVecDict, enWordVecDict, dictFile, testNum):
 
             testNum += 1
             if testNum % 200 == 0:
-                print "Have tested %d words, the AP@1 is %f, the AP@5 if %f" % (testNum, np.mean(precision1), np.mean(precision5))
-                print 'Time Used: %f' % time.clock() - start
+                print("Have tested %d words, the AP@1 is %f, the AP@5 if %f" %
+                      (testNum, np.mean(precision1), np.mean(precision5)))
+                print('Time Used: %f' % (time.clock() - start))
                 start = time.clock()
             if testNum > maxTestNum:  # 减少测试时间！
                 break
