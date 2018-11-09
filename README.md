@@ -1,7 +1,9 @@
 # Cross-lingual Lexical Sememe Prediction
-This is the open-source code of the EMNLP 2018 paper **Cross-lingual Lexical Sememe Prediction**.
+This is the open-source code of the EMNLP 2018 paper **Cross-lingual Lexical Sememe Prediction** [[pdf](http://aclweb.org/anthology/D18-1033)].
 
+## Introduction
 Sememes are defined as the minimum semantic units of human languages. As important knowledge sources, sememe-based linguistic knowledge bases have been widely used in many NLP tasks. However, most languages still do not have sememe-based linguistic knowledge bases. Thus we present a task of cross-lingual lexical sememe prediction (**CLSP**), aiming to automatically predict sememes for words in other languages. We propose a novel framework to model correlations between sememes and multi-lingual words in low-dimensional semantic space for sememe prediction. Experimental results on real-world datasets show that our proposed model achieves consistent and significant improvements as compared to baseline methods in cross-lingual sememe prediction.
+
 ## Usage
 	
 	bash run.sh
